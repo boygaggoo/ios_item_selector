@@ -22,8 +22,8 @@
         [[pictureButton layer] setBorderWidth:4.0];
         [[pictureButton layer] setBorderColor:[borderColor CGColor]];
 
-        if (![[item valueForKey:@"picture_url"] isEqual:[NSNull null]]){
-            [pictureButton setBackgroundImageWithURL:[NSURL URLWithString:[item valueForKey:@"picture_url"]] forState:UIControlStateNormal placeholderImage:[UIImage imageNamed:@"item_placeholder.png"]];
+        if (![[item valueForKey:@"pictureURL"] isEqual:[NSNull null]]){
+            [pictureButton setBackgroundImageWithURL:[NSURL URLWithString:[item valueForKey:@"pictureURL"]] forState:UIControlStateNormal placeholderImage:[UIImage imageNamed:@"item_placeholder.png"]];
         }
         [buttonView addSubview:pictureButton];
         [buttonView setTag:itemIndex];
