@@ -1,19 +1,19 @@
 iOS Item Selector
 =================
 
-![](demo_1.png)
-![](demo_2.png)
+![demo 1](https://raw.githubusercontent.com/maverick2000/ios_item_selector/master/screenshots/demo_1.png)
+![demo 2](https://raw.githubusercontent.com/maverick2000/ios_item_selector/master/screenshots/demo_2.png)
 Displays a series of items in a horizontal scrollView allowing the user to select an item.
-![](demo_3.png)
+![demo 3](https://raw.githubusercontent.com/maverick2000/ios_item_selector/master/screenshots/demo_3.png)
 Rounded image border is created dynamically and the color can be adjusted.  The name can be omitted if desired.
-![](demo_4.png)
+![demo 4](https://raw.githubusercontent.com/maverick2000/ios_item_selector/master/screenshots/demo_4.png)
 Can be used to allow for multiple selection.
 
 Prerequisites
 -------------
 
-1. [SDWebImage](https://github.com/rs/SDWebImage) since the items store the pictures on a remote server so caching is going to be handled by SDWebImage.
-2. Your items are an NSArray of NSDictionary items which expose pictureURL and itemName
+1. Your items are an NSArray of NSDictionary items which expose pictureURL and itemName
+2. Since the items array stores the pictures on a remote server caching is handled by [SDWebImage](https://github.com/rs/SDWebImage)
 3. A scrollview to display the itemSelector
 4. item_placeholder.png to display while the item picture loads
 5. Define an itemSelected method that is called when you tap on the name/picture of the item
@@ -38,7 +38,7 @@ the available options are:
 Installation
 ------------
 Create a scrollview inside your view controller to house the item selector
-![](installation.png)
+![installation](https://raw.githubusercontent.com/maverick2000/ios_item_selector/master/screenshots/installation.png)
 
 Link the scrollView to your view controller header file
 
@@ -46,7 +46,7 @@ Link the scrollView to your view controller header file
 
 Checkout this code into you project repository:
 
-    git clone....
+    git clone git@github.com:maverick2000/ios_item_selector.git
 
 Insert this at the top of your view controller header file:
 
