@@ -3,10 +3,15 @@ iOS Item Selector
 
 ![demo 1](https://raw.githubusercontent.com/maverick2000/ios_item_selector/master/screenshots/demo_1.png)
 ![demo 2](https://raw.githubusercontent.com/maverick2000/ios_item_selector/master/screenshots/demo_2.png)
+
 Displays a series of items in a horizontal scrollView allowing the user to select an item.
+
 ![demo 3](https://raw.githubusercontent.com/maverick2000/ios_item_selector/master/screenshots/demo_3.png)
+
 Rounded image border is created dynamically and the color can be adjusted.  The name can be omitted if desired.
+
 ![demo 4](https://raw.githubusercontent.com/maverick2000/ios_item_selector/master/screenshots/demo_4.png)
+
 Can be used to allow for multiple selection.
 
 Prerequisites
